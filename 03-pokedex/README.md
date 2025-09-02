@@ -34,6 +34,11 @@ $ pnpm run start:prod
 pnpm i -g @nestjs/cli
 ```
 
+## Building db with the seed
+```bash
+http://localhost:3000/api/v2/seed
+```
+
 ## Run tests
 
 ```bash

@@ -8,7 +8,12 @@ async function bootstrap() {
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
-      // forbidNonWhitelisted: true
+      forbidNonWhitelisted: true,
+
+      transform: true,
+      transformOptions: {
+        enableImplicitConversion: true
+      }
     })
   )
 
@@ -18,4 +23,5 @@ async function bootstrap() {
 }
 bootstrap();
 
+//WARN: Your at video 3, 9.Variables de Entorno
 // mongodb+srv://<db_username>:<db_password>@luisinho-db.yp9i8.mongodb.net/
