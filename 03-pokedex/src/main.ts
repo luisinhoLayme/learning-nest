@@ -19,9 +19,9 @@ async function bootstrap() {
 
   app.setGlobalPrefix('api/v2')
 
-  await app.listen(process.env.PORT ?? 3000);
+  await app.listen(process.env.PORT!);
 }
 bootstrap();
 
-//WARN: Your at video 3, 9.Variables de Entorno
+//WARN: Your at video 7, 9.Variables de Entorno
 // mongodb+srv://<db_username>:<db_password>@luisinho-db.yp9i8.mongodb.net/

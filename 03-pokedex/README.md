@@ -4,7 +4,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript, MongoDB, Mongoose starter repository.
+App with [Nest](https://github.com/nestjs/nest) framework, Used TypeScript, MongoDB, Mongoose starter repository.
 
 ## Project setup
 
@@ -15,6 +15,20 @@ $ git clone <this repository>
 ```bash
 $ pnpm install
 ```
+
+## Nest Cli
+```bash
+pnpm i -g @nestjs/cli
+```
+
+## Build the database
+```bash
+docker-compose up -d
+```
+
+## Clone file ```.env.template```
+1. Rename the copy to ```.env```
+2. Fill the defined enviroment variables in the ```.env```
 
 ## Compile and run the project
 
@@ -27,11 +41,6 @@ $ pnpm run start:dev
 
 # production mode
 $ pnpm run start:prod
-```
-
-## Nest Cli
-```bash
-pnpm i -g @nestjs/cli
 ```
 
 ## Building db with the seed
