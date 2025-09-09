@@ -30,4 +30,3 @@ async function bootstrap() {
 }
 bootstrap();
 
-//PERF: You're at video 3, 14.Documentacion OpenAi
