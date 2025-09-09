@@ -27,7 +27,7 @@ docker-compose up -d
 ```
 
 ## Clone file ```.env.template```
-1. Rename the copy to ```.env```
+1. Rename to ```.env```
 2. Fill the defined enviroment variables in the ```.env```
 
 ## Compile and run the project
